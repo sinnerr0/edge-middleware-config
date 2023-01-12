@@ -1,11 +1,12 @@
 import Head from "next/head";
+import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [cookie, setCookie] = useState("");
   useEffect(() => {
-    setCookie(document.cookie);
+    setCookie(Cookies.get("feature-flags"));
   }, []);
   return (
     <>
