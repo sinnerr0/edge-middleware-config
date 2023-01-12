@@ -6,7 +6,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   const [cookie, setCookie] = useState("");
   useEffect(() => {
-    setCookie(Cookies.get("feature-flags"));
+    const features = Cookies.get("feature-flags");
+    features && setCookie(features);
   }, []);
   return (
     <>
