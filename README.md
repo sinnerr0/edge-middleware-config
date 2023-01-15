@@ -1,3 +1,9 @@
+# Vercel을 활용한 기능 플래그(Edge Middleware & Edge Config)
+
+Vercel(프론트엔드 플랫폼)을 이용하여 기능 플래그를 구현하기 위해 필요한 기술과 방법에 대해서 구현합니다.
+
+관련 블로그 내용: https://sinnerr0.medium.com/vercel%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B8%B0%EB%8A%A5-%ED%94%8C%EB%9E%98%EA%B7%B8-46f74e779af8
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
